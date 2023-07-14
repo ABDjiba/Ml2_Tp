@@ -1,8 +1,8 @@
+plotly
 streamlit
 pandas
 fastapi
 requests
 matplotlib
 plost
-plotly
 plotly.express
