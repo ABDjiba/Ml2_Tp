@@ -2,6 +2,6 @@ streamlit
 pandas
 FastAPI
 requests
-plotly
+matplotlib
 plost
 
