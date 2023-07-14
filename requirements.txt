@@ -5,3 +5,4 @@ fastapi
 requests
 matplotlib
 plost
+uvicorn
