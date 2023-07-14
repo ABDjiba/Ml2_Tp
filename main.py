@@ -20,7 +20,10 @@ async def jointure():
 
     return resultat.to_dict(orient="records")
 
-
+if __name__ == '__main__':
+    # Exécuter l'application FastAPI
+    import uvicorn
+    uvicorn.run(app, host='127.0.0.1', port=8000, debug=True, reload=True)
 
 
 
