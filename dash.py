@@ -3,15 +3,14 @@ import requests
 import pandas as pd
 import plotly.express as px
 import plost
-import seaborn as sns
-import locale
+from main import run_main
 st.set_page_config(
     page_title="Blondin",
     layout="wide"
 )
 
 st.title("Tableau de bord")
-
+run_main()
 response = requests.get("http://127.0.0.1:8000/jointure")
 base=response.json()
 base=pd.DataFrame(base)
