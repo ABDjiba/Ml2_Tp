@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 st.title("Tableau de bord")
-response = requests.get("https://api-merging.onrender.com/jointure")
+response = requests.get("https://mergeur.onrender.com/jointure")
 base=response.json()
 base=pd.DataFrame(base)
 base=base.replace("-",pd.NA)
