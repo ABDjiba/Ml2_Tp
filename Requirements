@@ -1,6 +1,6 @@
 streamlit
 pandas
-FastAPI
+fastapi
 requests
 matplotlib
 plost
